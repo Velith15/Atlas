@@ -71,7 +71,7 @@ module.exports = async function handler(req, res) {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
-                'HTTP-Referer': 'https://atlas-lab.vercel.app',
+                'HTTP-Referer': 'https://atlas-lab-seven.vercel.app',
                 'X-Title': 'Atlas Lab'
             },
             body: JSON.stringify({
